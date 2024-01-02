@@ -1,0 +1,116 @@
+body{
+    margin:0px;
+}
+
+#header{
+    background-color:lightblue;
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    background-color: whitesmoke;
+    width: auto;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer{
+    background-color: lightblue;
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head-container{
+    width: 70%;
+    height: 70%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#head-img{
+    width: 40%;
+    height: 100%;
+    background-color: red;
+}
+#about-me{
+    width: 50%;
+    height: 70%;
+    background-color: green;
+  
+}
+
+#main-header{
+    width: auto;
+    height:30px;
+    background-color: red;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    
+}
+#main-container{
+    height: 100%;
+    width: auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:190px;
+}
+
+.project-container{
+    height: 250px;
+    width: 200px;
+    background-color: blue;
+}
+
+
+#info-container{
+    width: 40%;
+    height:100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+#footer-img{
+    width: 60%;
+    height:100%;
+    background-color: pink;
+}
+
+#footer-text{
+    height: 100px;
+    width: 70%;
+    background-color: yellow;
+}
+#footer-info{
+    height: 100px;
+    width: 70%;
+    background-color: red;
+}
+#footer-icons{
+    height: 100px;
+    width: 70%;
+    background-color: blue;
+}
+
+
+
+

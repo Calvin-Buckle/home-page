@@ -1,0 +1,28 @@
+Gmail
+import Icon from '@mdi/react';
+import { mdiGmail } from '@mdi/js';
+
+<Icon path={mdiGmail} size={1} />
+
+
+
+Git Hub
+import Icon from '@mdi/react';
+import { mdiGithub } from '@mdi/js';
+
+<Icon path={mdiGithub} size={1} />
+
+
+
+link
+import Icon from '@mdi/react';
+import { mdiOpenInNew } from '@mdi/js';
+
+<Icon path={mdiOpenInNew} size={1} />
+
+
+phone
+import Icon from '@mdi/react';
+import { mdiPhone } from '@mdi/js';
+
+<Icon path={mdiPhone} size={1} />
