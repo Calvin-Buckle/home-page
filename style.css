@@ -18,7 +18,8 @@ body{
 #main{
     background-color: whitesmoke;
     width: auto;
-    height: 900px;
+    height: fit-content;
+    margin:30px;
     display: flex;
     flex-direction: column;
 }
@@ -145,7 +146,9 @@ body{
     display: flex;
     justify-content: center;
     background-color: white;
+    padding: 30px;
 }
+
 #main-container{
     height: 95%;
     width: auto;
@@ -315,14 +318,14 @@ body{
 
     #floater{
         float: left;
-        width: 400px;
+        width: 380px;
         height: 160px;
         margin: 10px;
     }
     #about-me{
        
         padding: 10px;
-        width: 700px;
+        width: 660px;
         height: 260px;
     }
 
@@ -332,7 +335,18 @@ body{
         width: 100%;
     
     }
+    #main-container{
+        display: flex;
+     
+        align-content: space-around;
+        gap: 80px;
+    }
     
-  
+    .project-container{
+        width: 250px;
+        height:300px;
+    }
+    
+ 
 
 }
