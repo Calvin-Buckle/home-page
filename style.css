@@ -102,7 +102,7 @@ body{
   
 }
 #email-icon-container{
-    width: 10%;
+    width: 20%;
     height:100%;
 }
 
@@ -113,14 +113,25 @@ body{
     gap:10px;
     width: 100%;
     height: 35%;
+    margin-left:10px;
+    flex-wrap: wrap;
+}
+#email-bar p{
+    word-wrap: break-word;
+    width: auto;
 }
 
 .phone-icon{
-    width: 10%;
+    width: 100%;
     height: 100%;
     background-image:url('Assets/phone.svg');
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+#phone-icon-container{
+    width: 20%;
+    height: 100%
 }
 #phone-bar{
     display: flex;
@@ -129,6 +140,7 @@ body{
     gap: 10px;
     width: 100%;
     height: 35%;
+    margin-left:10px;
 }
 
 .github-icon{
@@ -217,13 +229,16 @@ body{
 }
 
 #footer-text{
-    height: 20%;
-    width: 70%;
+   height: fit-content;
+   width: 100%;
 
 }
 #footer-info{
-    height: 20%;
-    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: fit-content;
+    width: 100%;
 
 }
 #footer-icons{
@@ -399,6 +414,37 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    #email-icon-container{
+        display: flex;
+        justify-content: flex-start;
+        width: 0px;
+        height: 0px;
+    }
+    #phone-icon-container{
+        display: flex;
+        justify-content: flex-start;
+        width: 0px;
+        height: 0px;
+    }
+
+    #footer{
+        height: 900px;
+        flex-direction: column;
+    }
+
+    #footer-img-container{
+        width: 100%;
+    }
+    #footer-header{
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    #footer-icons{
+        height: 100px;
     }
     
 }
